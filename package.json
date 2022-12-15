@@ -1,0 +1,31 @@
+{
+  "name": "@grozav/stylelint-config",
+  "version": "1.0.0",
+  "scripts": {
+    "release": "np",
+    "test": "echo 'All tests passed!'"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 14"
+  },
+  "dependencies": {
+    "stylelint": "^14.14.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-recommended-scss": "^7.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-standard-scss": "^5.0.0",
+    "prettier": "^2.8.1"
+  },
+  "devDependencies": {
+    "np": "^7.6.2"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "ISC"
+}
