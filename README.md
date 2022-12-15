@@ -10,17 +10,19 @@
 
 1. Install dependencies.
     ~~~bash
-    npm i -DE eslint @grozav/eslint-preset
+    npm i -DE eslint @grozav/stylelint-preset
     ~~~
-2. Create a new `.eslintrc.js` file and add the following:
+2. Create a new `.stylelintrc.js` file and add the following:
     ~~~js
     module.exports = {
-        extends: '@grozav'
+        extends: [
+            '@grozav/stylelint-config'
+        ]
     }
     ~~~
 3. Add linting script to `package.json`:
     ~~~bash
-    "lint": "eslint --ext .vue,.ts,.tsx,.js,.jsx src",
+    "lint": "stylelint --ext .vue,.css,.scss src",
     ~~~
    
 ## License
