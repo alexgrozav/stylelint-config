@@ -9,17 +9,17 @@
     "stylelint": ">= 14"
   },
   "dependencies": {
-    "stylelint": "^14.14.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-recommended": "^9.0.0",
-    "stylelint-config-recommended-scss": "^7.0.0",
-    "stylelint-config-recommended-vue": "^1.4.0",
-    "stylelint-config-standard": "^29.0.0",
-    "stylelint-config-standard-scss": "^5.0.0",
-    "prettier": "^2.8.1"
+    "stylelint": "^16.2.1",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recommended": "^14.0.0",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "prettier": "^3.2.5"
   },
   "devDependencies": {
-    "np": "^7.6.2"
+    "np": "^10.0.1"
   },
   "files": [
     "index.js",
