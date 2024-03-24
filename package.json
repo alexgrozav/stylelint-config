@@ -6,10 +6,9 @@
     "test": "echo 'All tests passed!'"
   },
   "peerDependencies": {
-    "stylelint": ">= 14"
+    "stylelint": ">=16"
   },
   "dependencies": {
-    "stylelint": "^16.2.1",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recommended": "^14.0.0",
     "stylelint-config-recommended-scss": "^14.0.0",
