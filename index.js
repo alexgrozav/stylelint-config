@@ -1,8 +1,7 @@
-export default {
+module.exports = {
     extends: [
         "stylelint-config-recommended-scss",
         "stylelint-config-recommended-vue/scss",
-        "stylelint-config-prettier"
     ],
     rules: {
         'scss/at-if-closing-brace-space-after': null,
